@@ -29,6 +29,11 @@ Install the necessary packages:
 pip install -r requirements.txt
 ```
 
+## Training Setup
+The folder `trainingyolov5` contains the details and metrics of training. Inside this folder, the `weights` directory includes the `best.pt` file, which is the model file. The data for training and testing can be found at [this link](https://github.com/ftramer/ad-versarial/releases) in the `data.tar.gz` file, as referenced in the paper "AdVersarial: Defeating Perceptual Ad Blocking" by Florian Tramèr et al. (CCS '19).
+
+Inside data.tar.gz, there are pagebased/web directories with test (containing images and labels) and train (containing images and labels). These need to be converted to images/training, images/validation, labels/training, and labels/validation directories for training the YOLOv5 model and providing the correct paths.
+
 ## Usage
 To use the scripts for processing images, run the following commands:
 
