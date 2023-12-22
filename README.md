@@ -90,7 +90,7 @@ python datapoisoning.py --images_path [image_directory] \
 ```
 
 ## Training and Evading the Ad Blocker
-- **Training**: Use adevade.ipynb to train the YOLOv5 model.
+- **Training**: Use adevade.ipynb to train and test the YOLOv5 model on different attacks.
 - **Evading Techniques**:
     - Test Data Manipulation: Assess the model's detection ability under various attacks.
     - Training Data Poisoning: Introduce altered images into the training set to reduce detection efficacy.
